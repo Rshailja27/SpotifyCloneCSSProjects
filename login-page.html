@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>Login - Spotify</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login-stylesheet.css" />
+    
+</head>
+<body>
+    <div class="login-container">
+        <div class="header">
+          <img src="./images/spotify_logo.png" alt="logo" style="height: 4rem;margin: 1.4rem 0 0 4rem;">
+        </div>
+        <div class="main-box">
+          <div class="login-to-spotify">
+            <div class="login-with">
+              <div class="log-heading">
+                <p style="background-color: transparent;">Log in to Spotify</p>
+              </div>
+              <div class="login-with-btn">
+                <div class="btn-list">
+                  <img src="./images/google-icon.png" style="height: 1rem;width: 1rem; margin-right: 3rem;"
+                  alt="g-icon">
+                    <a href="#"> Sign up with Google
+                  </a>
+                </div>
+                <div class="btn-list">
+                    <i class="fa-brands fa-facebook" style="background-color: #fff;border-radius: 50%;color: #4267B2;">
+                    </i> 
+                    <a href="#">Sign up with Facebook
+                  </a>
+                </div>
+                <div class="btn-list">
+                    <i class="fa-brands fa-apple"></i> 
+                    <a href="#">Sign up with Apple
+                  </a>
+                </div>
+                <div  class="btn-list">
+                  <a href="#">
+                    Continue with phone number
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div><hr class="custom-hr"> </div>
+            <div class="email-username">
+              
+              <form action="#" method="post" class="login-form">
+                
+                <div class="input-group">
+                    <label for="username">Email or username</label>
+                    <input type="text" id="username" name="username" required placeholder="Email or username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <!-- <i class="fa-regular fa-eye-slash"></i> -->
+                </div>
+                <div class="input-group">
+                  <label for="toggle-on">
+                    <i class="fa-solid fa-toggle-on"></i>Remember me</label>
+                  </div>
+                <div class="input-group">  
+                  <input type="submit" value="Log In" class="login-btn">
+                  <!-- <button type="submit"  >Log In</button> -->
+              </div>
+                <div class="forgot-pass">
+                    <a href="#">Forgot your password?</a>
+                </div>
+              </form>
+            </div>
+            <div class="crt-new-acc">
+              <hr  class="custom-hr">
+              <p>Don't have an account? <a href="signup-page.html">Sign up for Spotify</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p class="term-pol">This site is protected by reCAPTCHA and the Google 
+            <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+        </div>
+    </div>
+</body>
+</html>
